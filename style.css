@@ -3,7 +3,7 @@
 /*
 Theme Name: Evangelical Covenant Church
 Description: Created for ECC by ECC Web Team
-Version: v1.5.12
+Version: v1.5.13
 Github Theme URI: https://github.com/parleer/eccdsm-wptheme
 Author: ECC Web Team
 Author URI: http://support.eccdsm.org/
@@ -341,6 +341,32 @@ h1#sectionTitle {
 	font-size: 14px;
 	color: #666;
 	}
+
+
+
+/*---------------------------------------------------------------------------- [ CONTENT-FULL AREA ] ---*/
+
+
+#content-full {
+	margin: 0 30px 0 20px;
+	width: 930px;
+	}
+
+*html #content-full { /* IE6 HACK */
+	float: left;
+	margin: 0 35px 0 10px;
+	width: 923px;
+	}
+
+#content-full ul {
+	margin: 0 0 25px 25px;
+	}
+
+#content-full ul li {
+	font-size: 14px;
+	color: #666;
+	}
+
 
 
 
