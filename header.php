@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 <title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
 <meta name="description" content="<?php bloginfo('description'); ?>" />
-<meta name="keywords" content="Evangelical Covenant Church, Pleasant Hill, Iowa" />
+<meta name="keywords" content="Evangelical Covenant Church, Des Moines, Iowa" />
 
 <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet" type="text/css" />
 <link href="<?php bloginfo('stylesheet_directory'); ?>/print.css" rel="stylesheet" type="text/css" media="print" />
@@ -13,6 +13,7 @@
 <link rel="shortcut icon" href="/favicon.ico" />
 <?php wp_enqueue_script('jquery'); ?>
 <?php wp_head(); ?>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/jquery.innerfade.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/theme.js"></script>
 </head>
