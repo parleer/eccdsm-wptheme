@@ -13,7 +13,6 @@
 <link rel="shortcut icon" href="/favicon.ico" />
 <?php wp_enqueue_script('jquery'); ?>
 <?php wp_head(); ?>
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/jquery.innerfade.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/theme.js"></script>
 </head>
