@@ -62,7 +62,21 @@
 
 		}
 	}
-
+	else {
+?>
+		<h1 id="submenuTitle">Blog Posts</h1>
+		<ul id="submenu">
+		<li><h3>Recent Posts</h3></li>
+		<?php wp_get_archives('type=postbypost&limit=10'); ?>
+		
+		<li><h3 style="margin-top: 20px;">Category</h3></li>
+		<li><?php the_category("</li>\n\t<li>"); ?></li>
+		<li><h3 style="margin-top: 20px;">Archive</h3>
+		<?php collapsArch(); ?>
+		</li>
+		</ul>
+<?php
+	}
 ?>
 	</div>
 	<!--/SIDEBAR-->
