@@ -589,6 +589,15 @@ input#submit:hover {
 }
 
 
+.ai1ec-agenda-widget-view .ai1ec-date-events  {
+  margin-left: 10px !important;
+}
+
+.ai1ec-date {
+  background: none !important;
+  border: 0 !important;
+}
+
 
 
 
