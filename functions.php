@@ -22,3 +22,6 @@ function block_wp_comments() {
   wp_die( __('Sorry, comments are closed for this item.') ); 
 }
 add_action('pre_comment_on_post', 'block_wp_comments'); 
+add_action('comment_on_trash', 'block_wp_comments'); 
+add_action('comment_on_draft', 'block_wp_comments'); 
+add_action('comment_on_password_protected', 'block_wp_comments'); 
