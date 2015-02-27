@@ -14,7 +14,7 @@
 '#'+'1'+'0'+'0'+';'+'s'+'m'+'&'+'#'+'4'+'6'+';'+'&'+'#'+'1'+'1'+'1'+';'+'r'+'&'+'#'+'1'+'0'+'3'+';'+
 '<'+'/'+'a'+'>');</script></p>
 
-<p class="info">Sunday Services</br>Blended – 9:00 a.m.<br />Contemporary – 10:45 a.m.</p>
+<p class="info">Sunday Services</br>Blended – 8:30 a.m.<br />Connection Groups - 9:50 a.m.<br />Contemporary – 11:00 a.m.</p>
 </div><!--/row-->
 
 <div class="clear"></div>
